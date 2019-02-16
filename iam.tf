@@ -1,3 +1,5 @@
+## Required IAM role for the server in my account
+
 resource "aws_iam_instance_profile" "EC2_profile" {
   name = "ec2-profile"
   role = "${aws_iam_role.ec2_role.name}"
