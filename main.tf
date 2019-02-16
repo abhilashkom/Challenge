@@ -12,7 +12,7 @@ data "aws_vpc" "main" {
     values = ["${var.vpc_name}"]
   }
 }
-
+## query most recent ami id
  data "aws_ami" "linux" {
    most_recent = true
 
