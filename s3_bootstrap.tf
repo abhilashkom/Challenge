@@ -1,4 +1,4 @@
-
+## upload files from my local to s3 bucket
 resource "aws_s3_bucket_object" "web_server" {
   bucket = "${var.ops_bucket_name}"
   key    = "web_server_dev/index.html"
