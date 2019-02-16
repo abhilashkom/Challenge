@@ -35,7 +35,6 @@ variable "subnet_id" {
   description = "The subnet associated with jenkins server"
 }
 
-
 variable "instance_name" {
   description = "name of instance"
 }
