@@ -26,7 +26,6 @@ availability_zone = "us-east-1b"
 
 ssl_cert_id = "arn:aws:acm:us-east-1:************:certificate/97f3790a-e94c-48a6-bfa8-c9c2d683193b"
 
-
 instance_name = "my-web-server"
 
 zone_id = "Z3GQ3LWMCJT51R"
