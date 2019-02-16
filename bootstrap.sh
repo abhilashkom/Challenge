@@ -1,3 +1,5 @@
+## Bootstrap for installing web server and moving index.html to correct path
+
 #!/bin/bash
 set -x
 # Exit immediately if a command exits with a non-zero status.
