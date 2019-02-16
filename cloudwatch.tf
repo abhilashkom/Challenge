@@ -1,3 +1,5 @@
+## Create Dashboards and alarms for monitoring the server
+
 resource "aws_cloudwatch_dashboard" "main" {
   dashboard_name = "${var.instance_name}-${var.region}"
 
