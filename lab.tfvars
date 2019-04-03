@@ -2,7 +2,7 @@ profile = "sailab"
 
 region = "us-east-1"
 
-vpc_name = "Sai Lab"
+vpc_name = "****"
 
 environment_name = "lab"
 
@@ -16,7 +16,7 @@ default_tags = {
   Creator              = "Terraform"
 }
 
-subnet_id = "subnet-447f1018"
+subnet_id = "subnet-*****"
 
 
 iam_role_profile = "ec2-profile"
@@ -24,8 +24,8 @@ iam_role_profile = "ec2-profile"
 availability_zone = "us-east-1b"
 
 
-ssl_cert_id = "arn:aws:acm:us-east-1:************:certificate/97f3790a-e94c-48a6-bfa8-c9c2d683193b"
+ssl_cert_id = "arn:aws:acm:us-east-1:************:certificate/**********************"
 
 instance_name = "my-web-server"
 
-zone_id = "Z3GQ3LWMCJT51R"
+zone_id = "**********"
