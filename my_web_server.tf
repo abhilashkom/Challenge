@@ -1,6 +1,6 @@
 ## Launch the EC2 instance
 resource "aws_instance" "my_web_server_dev" {
-  ami                  = "${data.aws_ami.linux.id}" ## Get most recent AMI ID ##
+  ami                  = "**********" ## Get most recent AMI ID ##
   instance_type        = "t2.micro"
   iam_instance_profile = "${var.iam_role_profile}"
 
@@ -47,7 +47,7 @@ resource "aws_security_group_rule" "my_web_server_dev_ssh_port" {
   to_port           = 22
   protocol          = "tcp"
   security_group_id = "${aws_security_group.my_web_server_dev_SG.id}"
-  cidr_blocks       = ["172.20.17.209/32"]
+  cidr_blocks       = ["***************"]
 }
 
 resource "aws_security_group_rule" "my_web_server_dev_http_port" {
